@@ -1,0 +1,19 @@
+# Ignore datasets
+data/
+.cache/
+
+# Python cache 
+__pycache__/
+pycache/
+*.pyc
+
+# TensorFlow
+*.pb
+*.pbtxt
+
+# Log files
+*.log
+
+# Model checkpoints
+# *.keras
+# *.h5
