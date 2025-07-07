@@ -31,8 +31,8 @@ CropAI is an AI-powered crop disease diagnosis system specifically designed for 
 
 ###  Technology Stack
 - **Frontend**: React Native mobile app
-- **Backend**: FastAPI with Python
-- **AI/ML**: TensorFlow, Keras, OpenCV
+- **Backend**: FastAPI 
+- **AI/ML**: TensorFlow, Keras
 - **Database**: SQLite with SQLAlchemy ORM
 - **Deployment**: Docker containerization
 
@@ -91,11 +91,88 @@ We trained a Convolutional Neural Network (CNN) model for crop disease classific
   <img src="docs/training_outputs/log.png" alt="Training Log" width="700"/>
 
 
-###  Accuracy & Loss Curves
-
+###  Plots:
 The following plots show the model’s training and validation accuracy and loss across epochs:
 
 <img src="docs/training_outputs/training_plots.png" alt="Training Plots" width="800"/>
+
+## Installation & Local Setup
+
+Follow these steps to run the backend locally:
+
+### 1. Clone the Repository 
+
+```bash
+git clone git@github.com:akechsmith/ai-crop-disease-diagnosis.git
+cd ai-crop-disease-diagnosis
+```
+### 2. Create & Activate a Virtual Environment
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+### 3. Install Dependencies
+```bash
+pip install -r backend/requirements.txt
+```
+### 4. Start the API Server
+```bash
+uvicorn backend.main:app --reload
+```
+The server will be available at:
+📍 http://127.0.0.1:8000
+### 5. Test the API via Swagger
+Visit:
+📘 http://127.0.0.1:8000/docs
+
+## API Usage
+
+CropAI exposes a single /predict endpoint via a FastAPI server that accepts image uploads and returns the top-3 predicted crop disease classes with confidence scores.
+
+### Endpoint
+
+- Method: POST  
+- URL: /predict  
+- Content-Type: multipart/form-data
+
+### Request Body
+
+Form field:
+
+- file (required): Image file of a crop leaf  
+  - Supported formats: .jpg, .jpeg, .png  
+
+### Example using curl
+
+```bash
+curl -X POST "http://127.0.0.1:8000/predict" \
+  -H "accept: application/json" \
+  -H "Content-Type: multipart/form-data" \
+  -F "file=@example_leaf.jpg"
+```
+### Response
+```json
+{
+  "predictions": [
+    {
+      "label": "septoria_leaf_spot",
+      "confidence": 0.74
+    },
+    {
+      "label": "late_blight",
+      "confidence": 0.23
+    },
+    {
+      "label": "early_blight",
+      "confidence": 0.02
+    }
+  ]
+}
+```
+### Error Codes
+- 422: Missing or invalid file input
+
+- 500: Model or server error
 
 ##  Contributors
 
