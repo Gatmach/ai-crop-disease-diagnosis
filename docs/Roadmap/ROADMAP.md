@@ -13,7 +13,7 @@ Industrial Attachment – JHUB Africa (May – August, 2025)
 
 ---
 
-####  Preprocessing & Model Development (Week 3–4)
+####  Phase 2: Preprocessing & Model Development (Week 3–4)
 - [x] Normalize, label, and clean image data
 - [x] Perform augmentation (OpenCV, TensorFlow, Albumentations)
 - [x] Train MobileNetV2 CNN with 95%+ accuracy
@@ -22,18 +22,18 @@ Industrial Attachment – JHUB Africa (May – August, 2025)
 ---
 
 ####  PPhase 3: API & Backend Infrastructure (Week 5–6)
-- [ ] Build FastAPI-based prediction API
-- [ ] Connect API to model checkpoint
-- [ ] Deploy to Firebase or Render
-- [ ] Add Swagger/OpenAPI documentation
+- [x] Build FastAPI-based prediction API
+- [x] Connect API to model checkpoint
+- [x] Deploy to Firebase or Render
+- [x] Add Swagger/OpenAPI documentation
 
 ---
 
 ####  Phase 4: Model Hub & Web Portal (Week 7–8)
-- [ ] Design mockup of CropAI Web Platform (Model Hub)
-- [ ] Add filters (crop, region, size, accuracy)
-- [ ] List our default model + for partner models
-- [ ] Begin Firebase backend setup (Auth, Firestore, Storage)
+- [x] Design mockup of CropAI Web Platform (Model Hub)
+- [x] Add filters (crop, region, size, accuracy)
+- [x] List our default model + for partner models
+- [x] Begin Firebase backend setup (Auth, Firestore, Storage)
 
 ---
 
@@ -41,7 +41,22 @@ Industrial Attachment – JHUB Africa (May – August, 2025)
 - [ ] Bundle core TFLite models in React Native app
 - [ ] Add camera input + Swahili/English toggle  
 - [ ] Implement SQLite-based diagnosis history
-- [ ] Add “Explore More Models” web view integration 
+- [ ] Add “Explore More Models” web view integration
 
+---
+
+####  Phase 6: Feedback Loop & Knowledge Layer (Week 10)
+- [ ] Refine UI layout and responsiveness across mobile and desktop
+- [ ] Add camera input + Swahili/English toggle  
+- [ ] Add crop and tag filtering logic
+- [ ] Deploy Model Hub to GitHub Pages or Vercel
+
+---
+
+####  Phase 7: Final Testing, Docs & Pitch (Week 10)
+- [ ] Field test with farmers or extension officers  
+- [ ] Finalize GitHub repo (README, API docs, model files)    
+- [ ] Submit SDD PDF (group version)
+- [ ] Prepare & present pitch deck to JHUB panel  
 ---
 
