@@ -52,7 +52,7 @@ pycache/
 *.DS_Store
 
 # Data and models
-data/
 # *.keras
 # *.h5
+
 backend/cropai-59b38-firebase-adminsdk-fbsvc-35dfd8acb5.json
