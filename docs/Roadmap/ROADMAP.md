@@ -18,7 +18,7 @@ Industrial Attachment – JHUB Africa (May – August, 2025)
 - [x] Perform augmentation (OpenCV, TensorFlow, Albumentations)
 - [x] Train MobileNetV2 CNN with 95%+ accuracy
 - [x] Evaluate and tune model performance  
-- [x] Convert trained model to TensorFlow Lite (.tflite
+- [x] Convert trained model to TensorFlow Lite (.tflite)
 ---
 
 ####  PPhase 3: API & Backend Infrastructure (Week 5–6)
