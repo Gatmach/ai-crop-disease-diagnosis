@@ -1,0 +1,21 @@
+{
+    "0": "angular_leaf_spot",
+    "1": "anthracnose",
+    "2": "bacterial_spot",
+    "3": "bean_rust",
+    "4": "blight",
+    "5": "common_rust",
+    "6": "downy_mildew",
+    "7": "early_blight",
+    "8": "gray_leaf_spot",
+    "9": "healthy",
+    "10": "late_blight",
+    "11": "leaf_mold",
+    "12": "mln_lethal_necrosis",
+    "13": "mosaic_virus",
+    "14": "msv_streak_virus",
+    "15": "septoria_leaf_spot",
+    "16": "spider_mite",
+    "17": "target_spot",
+    "18": "yellow_leaf__curl_Virus"
+}

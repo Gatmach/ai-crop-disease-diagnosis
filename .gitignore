@@ -1,19 +1,58 @@
-# Ignore datasets
-data/
-.cache/
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Python cache 
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+
+# Build caches
+.cache/
+.vitepress/cache/
+.vitepress/dist/
+
+# Environments
+.env
+.env.*.local
+
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.log*
+
+# Testing
+coverage/
+*.lcov
+
+# IDE settings
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Python
+venv/
 __pycache__/
 pycache/
 *.pyc
-
-# TensorFlow
 *.pb
 *.pbtxt
 
-# Log files
-*.log
+# Misc system
+*.tsbuildinfo
+*.swo
+*.swp
+*.DS_Store
 
-# Model checkpoints
+# Data and models
 # *.keras
 # *.h5
+
+backend/cropai-59b38-firebase-adminsdk-fbsvc-35dfd8acb5.json

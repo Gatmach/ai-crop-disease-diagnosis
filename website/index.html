@@ -1,254 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CropAI - AI-Powered Crop Disease Diagnosis</title>
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <!-- Navigation -->
-<nav class="navbar">
-  <div class="nav-container">
-    <div class="logo">
-      <i class="fas fa-seedling"></i> CropAI
-    </div>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo"><i class="fas fa-seedling"></i> CropAI</div>
 
-    <ul class="nav-links" id="navLinks">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#events">Events</a></li>
-      <li><a href="#news">News</a></li>
-      <li><a href="#team">Team</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#team">Team</a></li>
+          <li>
+            <a href="https://ai-crop-model-hub.vercel.app" class="model-hub-btn"target="_blank" rel="noopener noreferrer">CropAI Model Hub</a>
+          </li>
+        </ul>
 
-    <div class="hamburger" id="hamburger">
-      <i class="fas fa-bars"></i>
-    </div>
-  </div>
-</nav>
-
-
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>AI-Powered Crop Disease Diagnosis</h1>
-            <p>Empowering Kenyan smallholder farmers with intelligent plant health diagnostics through computer vision and mobile technology</p>
-            <a href="#services" class="cta-button">Discover Our Solution</a>
-        </div>
+      <div class="hero-content">
+        <h1>AI-Powered Crop Disease Diagnosis</h1>
+        <p>
+          Empowering Kenyan smallholder farmers with intelligent plant health
+          diagnostics through computer vision and mobile technology
+        </p>
+        <a href="#services" class="cta-button">Discover Our Solution</a>
+      </div>
     </section>
 
     <!-- Services Section -->
-<section id="services" class="services scroll-reveal">
-    <div class="container">
+    <section id="services" class="services scroll-reveal">
+      <div class="container">
         <h2 class="section-title">Our Services</h2>
         <div class="services-grid">
-            <div class="service-card">
-                <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
-                <h3>Mobile Disease Detection</h3>
-                <p>Instant crop disease diagnosis using smartphone cameras with AI-powered image recognition for maize, tomatoes, and beans.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><i class="fas fa-microscope"></i></div>
-                <h3>Offline Diagnosis</h3>
-                <p>TensorFlow Lite integration enables disease detection even without internet connectivity, perfect for rural farming areas.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><i class="fas fa-chart-line"></i></div>
-                <h3>Analytics & Insights</h3>
-                <p>Comprehensive analytics dashboard tracking disease patterns, treatment effectiveness, and crop health trends.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><i class="fas fa-language"></i></div>
-                <h3>Multi-language Support</h3>
-                <p>User-friendly interface available in English and Swahili, designed specifically for Kenyan farmers.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><i class="fas fa-bolt"></i></div>
-                <h3>Real-time API</h3>
-                <p>RESTful API backend providing fast, accurate disease predictions with cloud storage and analytics.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon"><i class="fas fa-crosshairs"></i></div>
-                <h3>Treatment Recommendations</h3>
-                <p>Actionable treatment advice and prevention strategies tailored to specific diseases and local conditions.</p>
-            </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+            <h3>Mobile Disease Detection</h3>
+            <p>
+              Instant crop disease diagnosis using smartphone cameras with
+              AI-powered image recognition for maize, tomatoes, and beans.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-microscope"></i></div>
+            <h3>Offline Diagnosis</h3>
+            <p>
+              TensorFlow Lite integration enables disease detection even without
+              internet connectivity, perfect for rural farming areas.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+            <h3>Analytics & Insights</h3>
+            <p>
+              Comprehensive analytics dashboard tracking disease patterns,
+              treatment effectiveness, and crop health trends.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-language"></i></div>
+            <h3>Multi-language Support</h3>
+            <p>
+              User-friendly interface available in English and Swahili, designed
+              specifically for Kenyan farmers.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-bolt"></i></div>
+            <h3>Real-time API</h3>
+            <p>
+              RESTful API backend providing fast, accurate disease predictions
+              with cloud storage and analytics.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-crosshairs"></i></div>
+            <h3>Treatment Recommendations</h3>
+            <p>
+              Actionable treatment advice and prevention strategies tailored to
+              specific diseases and local conditions.
+            </p>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
     <!-- Events Section -->
     <section id="events" class="events scroll-reveal">
-        <div class="container">
-            <h2 class="section-title">Upcoming Events</h2>
-            <div class="events-grid">
-                <div class="event-card">
-                    <div class="event-date">
-                        <div>JUN 25</div>
-                        <div>2025</div>
-                    </div>
-                    <div class="event-content">
-                        <h3>Field Testing Launch</h3>
-                        <p>Beginning comprehensive field testing with smallholder farmers in Central Kenya. Join us as we validate our AI system in real farming conditions.</p>
-                        <p><strong>Location:</strong> JKUAT Agricultural Research Center</p>
-                    </div>
-                </div>
-                <div class="event-card">
-                    <div class="event-date">
-                        <div>JUL 10</div>
-                        <div>2025</div>
-                    </div>
-                    <div class="event-content">
-                        <h3>Farmer Training Workshop</h3>
-                        <p>Interactive training session for farmers and agricultural extension officers on using the CropAI mobile application.</p>
-                        <p><strong>Location:</strong> Kiambu County Agricultural Office</p>
-                    </div>
-                </div>
-                <div class="event-card">
-                    <div class="event-date">
-                        <div>AUG 15</div>
-                        <div>2025</div>
-                    </div>
-                    <div class="event-content">
-                        <h3>Project Presentation</h3>
-                        <p>Final project presentation and demonstration of the complete AI-powered crop disease diagnosis system.</p>
-                        <p><strong>Location:</strong> JKUAT Computer Science Department</p>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">Upcoming Events</h2>
+        <div class="events-grid">
+          <div class="event-card">
+            <div class="event-date">
+              <div>JUN 25</div>
+              <div>2025</div>
             </div>
+            <div class="event-content">
+              <h3>Field Testing Launch</h3>
+              <p>
+                Beginning comprehensive field testing with smallholder farmers
+                in Central Kenya. Join us as we validate our AI system in real
+                farming conditions.
+              </p>
+              <p>
+                <strong>Location:</strong> JKUAT Agricultural Research Center
+              </p>
+            </div>
+          </div>
+          <div class="event-card">
+            <div class="event-date">
+              <div>JUL 10</div>
+              <div>2025</div>
+            </div>
+            <div class="event-content">
+              <h3>Farmer Training Workshop</h3>
+              <p>
+                Interactive training session for farmers and agricultural
+                extension officers on using the CropAI mobile application.
+              </p>
+              <p>
+                <strong>Location:</strong> Kiambu County Agricultural Office
+              </p>
+            </div>
+          </div>
+          <div class="event-card">
+            <div class="event-date">
+              <div>AUG 15</div>
+              <div>2025</div>
+            </div>
+            <div class="event-content">
+              <h3>Project Presentation</h3>
+              <p>
+                Final project presentation and demonstration of the complete
+                AI-powered crop disease diagnosis system.
+              </p>
+              <p>
+                <strong>Location:</strong> JKUAT Computer Science Department
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- News Section -->
-<section id="news" class="news scroll-reveal">
-    <div class="container">
+    <section id="news" class="news scroll-reveal">
+      <div class="container">
         <h2 class="section-title">Latest News</h2>
         <div class="news-grid">
-            <div class="news-card">
-                <div class="news-image"><i class="fas fa-rocket"></i></div>
-                <div class="news-content">
-                    <div class="news-meta">June 5, 2025</div>
-                    <h3>Project Development Milestone</h3>
-                    <p>Successfully completed the initial CNN model training phase with 92% accuracy on disease classification for maize, tomatoes, and beans.</p>
-                </div>
+          <div class="news-card">
+            <div class="news-image"><i class="fas fa-rocket"></i></div>
+            <div class="news-content">
+              <div class="news-meta">June 5, 2025</div>
+              <h3>Project Development Milestone</h3>
+              <p>
+                Successfully completed the initial CNN model training phase with
+                92% accuracy on disease classification for maize, tomatoes, and
+                beans.
+              </p>
             </div>
-            <div class="news-card">
-                <div class="news-image"><i class="fas fa-handshake"></i></div>
-                <div class="news-content">
-                    <div class="news-meta">May 28, 2025</div>
-                    <h3>Partnership with JHUB Africa</h3>
-                    <p>Proud to announce our collaboration with JHUB Africa for mentorship and technical guidance throughout the project development.</p>
-                </div>
+          </div>
+          <div class="news-card">
+            <div class="news-image"><i class="fas fa-handshake"></i></div>
+            <div class="news-content">
+              <div class="news-meta">May 28, 2025</div>
+              <h3>Partnership with JHUB Africa</h3>
+              <p>
+                Proud to announce our collaboration with JHUB Africa for
+                mentorship and technical guidance throughout the project
+                development.
+              </p>
             </div>
-            <div class="news-card">
-                <div class="news-image"><i class="fas fa-chart-bar"></i></div>
-                <div class="news-content">
-                    <div class="news-meta">May 20, 2025</div>
-                    <h3>Dataset Collection Complete</h3>
-                    <p>Finished compiling a comprehensive dataset of over 10,000 crop disease images, combining PlantVillage data with locally verified samples.</p>
-                </div>
+          </div>
+          <div class="news-card">
+            <div class="news-image"><i class="fas fa-chart-bar"></i></div>
+            <div class="news-content">
+              <div class="news-meta">May 20, 2025</div>
+              <h3>Dataset Collection Complete</h3>
+              <p>
+                Finished compiling a comprehensive dataset of over 10,000 crop
+                disease images, combining PlantVillage data with locally
+                verified samples.
+              </p>
             </div>
+          </div>
         </div>
-    </div>
-</section>
-
-
-    <section id="partnership" class="partnership-section">
-        <div class="container">
-            <h2 class="section-title">Our Partners</h2>
-            <div class="partner-cards">
-                <!-- JKUAT -->
-                <div class="partner-card">
-                    <img src="images/jkuat.jpg" alt="JKUAT logo">
-                    <h3>JKUAT</h3>
-                    <a href="https://www.linkedin.com/school/jkuat/posts/?feedView=all" title="Connect on LinkedIn" target="_blank"><i class="fab fa-linkedin" style="color:#0077b5;"></i></a>
-                </div>
-
-                <!-- JHUB Africa -->
-                <div class="partner-card">
-                    <img src="images/jhub.jpg" alt="JHUB Africa Logo">
-                    <h3>JHUB Africa</h3>
-                    <a href="https://www.linkedin.com/company/jhubafrica/posts/?feedView=all" title="Connect on LinkedIn" target="_blank"><i class="fab fa-linkedin" style="color:#0077b5;"></i></a>
-                </div> 
-
-                <!-- Dr. Lawrence Nderu -->
-                <div class="partner-card">
-                    <img src="images/Dr. Nderu.png" alt="Dr. Lawrence Nderu">
-                    <h3>Dr. Lawrence Nderu</h3>
-                    <a href="https://www.linkedin.com/in/dr-lawrence-nderu/" title="Connect on LinkedIn" target="_blank"><i class="fab fa-linkedin" style="color:#0077b5;"></i></a>
-                </div>
-        </div>
-    </div>
+      </div>
     </section>
 
+    <section id="partnership" class="partnership-section">
+      <div class="container">
+        <h2 class="section-title">Our Partners</h2>
+        <div class="partner-cards">
+          <!-- JKUAT -->
+          <div class="partner-card">
+            <img src="images/jkuat.jpg" alt="JKUAT logo" />
+            <h3>JKUAT</h3>
+            <a
+              href="https://www.linkedin.com/school/jkuat/posts/?feedView=all"
+              title="Connect on LinkedIn"
+              target="_blank"
+              ><i class="fab fa-linkedin" style="color: #0077b5"></i
+            ></a>
+          </div>
+
+          <!-- JHUB Africa -->
+          <div class="partner-card">
+            <img src="images/jhub.jpg" alt="JHUB Africa Logo" />
+            <h3>JHUB Africa</h3>
+            <a
+              href="https://www.linkedin.com/company/jhubafrica/posts/?feedView=all"
+              title="Connect on LinkedIn"
+              target="_blank"
+              ><i class="fab fa-linkedin" style="color: #0077b5"></i
+            ></a>
+          </div>
+
+          <!-- Dr. Lawrence Nderu -->
+          <div class="partner-card">
+            <img src="images/Dr. Nderu.png" alt="Dr. Lawrence Nderu" />
+            <h3>Dr. Lawrence Nderu</h3>
+            <a
+              href="https://www.linkedin.com/in/dr-lawrence-nderu/"
+              title="Connect on LinkedIn"
+              target="_blank"
+              ><i class="fab fa-linkedin" style="color: #0077b5"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Team Section -->
     <section id="team" class="team scroll-reveal">
-    <div class="container">
+      <div class="container">
         <h2 class="section-title">Our Team</h2>
         <div class="team-grid">
-            <div class="team-card">
-                
-                <div class="team-avatar">
-                   <img src="images/yuol.jpg" alt="Gatmach Yuol Nyuon">
-                </div>
+          <div class="team-card">
+            <div class="team-avatar">
+              <img src="images/yuol.jpg" alt="Gatmach Yuol Nyuon" />
+            </div>
 
-                <h3>Gatmach Yuol Nyuon</h3>
-                <div class="team-role">Lead Developer & AI Specialist</div>
-                <p>Computer Science student at JKUAT specializing in machine learning and mobile app development.</p>
-                <div class="team-links">
-                    <a href="https://www.linkedin.com/in/gatmachyuolnyuon" title="LinkedIn" target="_blank"><i class="fab fa-linkedin" style="color:#0077b5;"></i></a>
-                    <a href="mailto:gatmachyuol@gmail.com" title="Email" target="_blank"><i class="fas fa-envelope" style="color:#d44638;"></i></a>
-                    <a href="https://github.com/Gatmach" title="GitHub" target="_blank"><i class="fab fa-github" style="color:#000;"></i></a>
-                    <a href="tel:+25472290999" title="Phone" target="_blank"><i class="fas fa-phone" style="color:#25d366;"></i></a>
-                </div>
+            <h3>Gatmach Yuol Nyuon</h3>
+            <div class="team-role">Lead Developer & AI Specialist</div>
+            <p>
+              Computer Science student at JKUAT specializing in machine learning
+              and mobile app development.
+            </p>
+            <div class="team-links">
+              <a
+                href="https://www.linkedin.com/in/gatmachyuolnyuon"
+                title="LinkedIn"
+                target="_blank"
+                ><i class="fab fa-linkedin" style="color: #0077b5"></i
+              ></a>
+              <a
+                href="mailto:gatmachyuol@gmail.com"
+                title="Email"
+                target="_blank"
+                ><i class="fas fa-envelope" style="color: #d44638"></i
+              ></a>
+              <a
+                href="https://github.com/Gatmach"
+                title="GitHub"
+                target="_blank"
+                ><i class="fab fa-github" style="color: #000"></i
+              ></a>
+              <a href="tel:+25472290999" title="Phone" target="_blank"
+                ><i class="fas fa-phone" style="color: #25d366"></i
+              ></a>
             </div>
-            <div class="team-card">
-                <div class="team-avatar">
-                   <img src="images/loskii.jpg" alt="Gatmach Yuol Nyuon">
-                </div>
-                <h3>Collins Omollo</h3>
-                <div class="team-role">Frontend Developer</div>
-                <p>React Native specialist focused on creating intuitive user interfaces for agricultural applications.</p>
-                <div class="team-links">
-                    <a href="https://www.linkedin.com/in/collins-omollo-51296629a/?trk=contact-info" title="LinkedIn" target="_blank"><i class="fab fa-linkedin" style="color:#0077b5;"></i></a>
-                    <a href="mailto:omoloski5@gmail.com" title="Email" target="_blank"><i class="fas fa-envelope" style="color:#d44638;"></i></a>
-                    <a href="https://github.com/loskiii" title="GitHub" target="_blank"><i class="fab fa-github" style="color:#000;"></i></a>
-                    <a href="tel:+254713225292" title="Phone" target="_blank"><i class="fas fa-phone" style="color:#25d366;"></i></a>
-                </div>
+          </div>
+          <div class="team-card">
+            <div class="team-avatar">
+              <img src="images/loskii.jpg" alt="Gatmach Yuol Nyuon" />
             </div>
-            <div class="team-card">
-                <div class="team-avatar">
-                   <img src="images/meshack.jpg" alt="Meshack Otieno">
-                </div>
-                <h3>Meshack Otieno</h3>
-                <div class="team-role">Backend Engineer</div>
-                <p>API development and cloud infrastructure specialist ensuring scalable backend solutions.</p>
-                <div class="team-links">
-                    <a href="https://www.linkedin.com/in/meshack-otieno-447545363" title="LinkedIn" target="_blank"><i class="fab fa-linkedin" style="color:#0077b5;"></i></a>
-                    <a href="mailto:meshackouma833@gmail.com" title="Email" target="_blank"><i class="fas fa-envelope" style="color:#d44638;"></i></a>
-                    <a href="https://github.com/Meshackoo" title="GitHub" target="_blank"><i class="fab fa-github" style="color:#000;"></i></a>
-                    <a href="tel:+254716929636" title="Phone" target="_blank"><i class="fas fa-phone" style="color:#25d366;"></i></a>
-                </div>
+            <h3>Collins Omollo</h3>
+            <div class="team-role">Frontend Developer</div>
+            <p>
+              React Native specialist focused on creating intuitive user
+              interfaces for agricultural applications.
+            </p>
+            <div class="team-links">
+              <a
+                href="https://www.linkedin.com/in/collins-omollo-51296629a/?trk=contact-info"
+                title="LinkedIn"
+                target="_blank"
+                ><i class="fab fa-linkedin" style="color: #0077b5"></i
+              ></a>
+              <a href="mailto:omoloski5@gmail.com" title="Email" target="_blank"
+                ><i class="fas fa-envelope" style="color: #d44638"></i
+              ></a>
+              <a
+                href="https://github.com/loskiii"
+                title="GitHub"
+                target="_blank"
+                ><i class="fab fa-github" style="color: #000"></i
+              ></a>
+              <a href="tel:+254713225292" title="Phone" target="_blank"
+                ><i class="fas fa-phone" style="color: #25d366"></i
+              ></a>
             </div>
-            <div class="team-card">
-                <div class="team-avatar">
-                   <img src="images/akech.jpeg" alt="Akech Atem">
-                </div>
-                <h3>Akech Atem</h3>
-                <div class="team-role">AI/ML Engineer & DevOps</div>
-                <p>Training disease detection models, deploying backend APIs, and documenting the system across data, model, and CI/CD workflows</p>
-                <div class="team-links">
-                    <a href="https://linkedin.com/in/aketch-atem-2a363b2ba" title="LinkedIn" target="_blank"><i class="fab fa-linkedin" style="color:#0077b5;"></i></a>
-                    <a href="mailto:akdauatem@gmail.com" title="Email" target="_blank"><i class="fas fa-envelope" style="color:#d44638;"></i></a>
-                    <a href="https://github.com/akechsmith/" title="GitHub" target="_blank"><i class="fab fa-github" style="color:#000;"></i></a>
-                    <a href="tel:+254797268328" title="Phone" target="_blank"><i class="fas fa-phone" style="color:#25d366;"></i></a>
-                </div>
+          </div>
+          <div class="team-card">
+            <div class="team-avatar">
+              <img src="images/meshack.jpg" alt="Meshack Otieno" />
             </div>
+<<<<<<< HEAD
             <div class="team-card">
                 <div class="team-avatar">
                     <img src="images/meth.jpg" alt="Methusella Nyongesa">
@@ -263,51 +338,124 @@
                     <a href="tel:+254714040307" title="Phone" target="_blank">📞</a>
                 </div>
             </div>
+=======
+            <h3>Meshack Otieno</h3>
+            <div class="team-role">Backend Engineer</div>
+            <p>
+              API development and cloud infrastructure specialist ensuring
+              scalable backend solutions.
+            </p>
+            <div class="team-links">
+              <a
+                href="https://www.linkedin.com/in/meshack-otieno-447545363"
+                title="LinkedIn"
+                target="_blank"
+                ><i class="fab fa-linkedin" style="color: #0077b5"></i
+              ></a>
+              <a
+                href="mailto:meshackouma833@gmail.com"
+                title="Email"
+                target="_blank"
+                ><i class="fas fa-envelope" style="color: #d44638"></i
+              ></a>
+              <a
+                href="https://github.com/Meshackoo"
+                title="GitHub"
+                target="_blank"
+                ><i class="fab fa-github" style="color: #000"></i
+              ></a>
+              <a href="tel:+254716929636" title="Phone" target="_blank"
+                ><i class="fas fa-phone" style="color: #25d366"></i
+              ></a>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-avatar">
+              <img src="images/akech.jpeg" alt="Akech Atem" />
+            </div>
+            <h3>Akech Atem</h3>
+            <div class="team-role">AI/ML Engineer & DevOps</div>
+            <p>
+              Training disease detection models, deploying backend APIs, and
+              documenting the system across data, model, and CI/CD workflows
+            </p>
+            <div class="team-links">
+              <a
+                href="https://linkedin.com/in/aketch-atem-2a363b2ba"
+                title="LinkedIn"
+                target="_blank"
+                ><i class="fab fa-linkedin" style="color: #0077b5"></i
+              ></a>
+              <a href="mailto:akdauatem@gmail.com" title="Email" target="_blank"
+                ><i class="fas fa-envelope" style="color: #d44638"></i
+              ></a>
+              <a
+                href="https://github.com/akechsmith/"
+                title="GitHub"
+                target="_blank"
+                ><i class="fab fa-github" style="color: #000"></i
+              ></a>
+              <a href="tel:+254797268328" title="Phone" target="_blank"
+                ><i class="fas fa-phone" style="color: #25d366"></i
+              ></a>
+            </div>
+          </div>
+>>>>>>> d0aeae7aacb40fd1420671068fa14f9fd2c21e62
         </div>
-    </div>
-</section>
-
+      </div>
+    </section>
 
     <!-- Footer -->
     <!-- Footer -->
-<footer id="contact" class="footer">
-    <div class="footer-content">
-
+    <footer id="contact" class="footer">
+      <div class="footer-content">
         <div class="footer-links">
-            <a href="#about">About</a>
-            <a href="#privacy">Privacy Policy</a>
-            <a href="#terms">Terms of Service</a>
-            <a href="#support">Support</a>
-            <a href="#api">API Docs</a>
+          <a href="#about">About</a>
+          <a href="#privacy">Privacy Policy</a>
+          <a href="#terms">Terms of Service</a>
+          <a href="#support">Support</a>
+          <a href="#api">API Docs</a>
         </div>
 
         <div class="footer-social">
-            <a href="https://github.com/yourproject" target="_blank" title="GitHub">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="mailto:team@cropai.co.ke" title="Email Us">
-                <i class="fas fa-envelope"></i>
-            </a>
-            <a href="https://linkedin.com/company/cropai" target="_blank" title="LinkedIn">
-                <i class="fab fa-linkedin"></i>
-            </a>
+          <a
+            href="https://github.com/yourproject"
+            target="_blank"
+            title="GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:team@cropai.co.ke" title="Email Us">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a
+            href="https://linkedin.com/company/cropai"
+            target="_blank"
+            title="LinkedIn"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
         </div>
 
-        <p>&copy; 2025 CropAI - AI-Powered Crop Disease Diagnosis. A JKUAT Computer Science Project.</p>
-        <p>Supervised by JHUB Africa | Supporting Kenya Vision 2030 & SDG 2: Zero Hunger</p>
-    </div>
-</footer>
-
+        <p>
+          &copy; 2025 CropAI - AI-Powered Crop Disease Diagnosis. A JKUAT
+          Computer Science Project.
+        </p>
+        <p>
+          Supervised by JHUB Africa | Supporting Kenya Vision 2030 & SDG 2: Zero
+          Hunger
+        </p>
+      </div>
+    </footer>
 
     <script src="index.js"></script>
     <script>
-  const hamburger = document.getElementById('hamburger');
-  const navLinks = document.getElementById('navLinks');
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("navLinks");
 
-  hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-  });
-</script>
-
-</body>
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
 </html>
