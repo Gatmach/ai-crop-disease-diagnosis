@@ -39,17 +39,17 @@ Industrial Attachment – JHUB Africa (May – August, 2025)
 
 ####  Phase 5: Mobile App Integration (Week 9)
 - [ ] Bundle core TFLite models in React Native app
-- [ ] Add camera input + Swahili/English toggle  
-- [ ] Implement SQLite-based diagnosis history
-- [ ] Add “Explore More Models” web view integration
+- [x] Add camera input + Swahili/English toggle  
+- [x] Implement SQLite-based diagnosis history
+- [x] Add “Explore More Models” web view integration
 
 ---
 
 ####  Phase 6: Feedback Loop & Knowledge Layer (Week 10)
-- [ ] Refine UI layout and responsiveness across mobile and desktop
-- [ ] Add camera input + Swahili/English toggle  
-- [ ] Add crop and tag filtering logic
-- [ ] Deploy Model Hub to GitHub Pages or Vercel
+- [x] Refine UI layout and responsiveness across mobile and desktop
+- [x] Add camera input + Swahili/English toggle  
+- [x] Add crop and tag filtering logic
+- [x] Deploy Model Hub to GitHub Pages or Vercel
 
 ---
 
