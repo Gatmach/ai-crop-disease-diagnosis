@@ -20,6 +20,9 @@ dist-ssr/
 .env
 .env.*.local
 
+# Ignore local virtual environment
+.cropai/
+
 # Firebase
 .firebase/
 .firebaserc
@@ -56,3 +59,4 @@ pycache/
 # *.h5
 
 backend/cropai-59b38-firebase-adminsdk-fbsvc-35dfd8acb5.json
+backend/cropai-d8e2e-firebase-adminsdk-fbsvc-cd238acae8.json
